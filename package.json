@@ -35,9 +35,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "tslint -c tslint.json src/*.ts",
     "build": "npm run clean & tsc -p ./tsconfig.json",
-    "clean": "rm -rf dist",
-    "prepublish": "npm run build",
-    "docs": "typedoc --excludePrivate --excludeProtected --out ./docs --theme markdown"
+    "clean": "rm -rf dist"
   },
   "devDependencies": {
     "@blockone/tslint-config-blockone": "^0.0.2",
@@ -50,8 +48,6 @@
     "@blockone/eosjs-signature-provider-interface": "^6.0.0",
     "eosjs": "^20.0.0-73152ad.0",
     "qs": "^6.5.2",
-    "typedoc": "^0.13.0",
-    "typedoc-plugin-markdown": "^1.1.19",
     "uuid": "^3.3.2"
   }
 }
