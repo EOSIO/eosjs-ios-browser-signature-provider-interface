@@ -1,7 +1,7 @@
-# EOSJS iOS Signature Provider for EOSIO Authenticator
+# EOSJS Signature Provider for EOSIO Authenticator in iOS
 A [Signature Provider Interface](https://github.com/EOSIO/eosjs-signature-provider-interface) for communicating with an authenticator from iOS Safari using the [EOSIO Authentication Transport Protocol Specification](https://github.com/EOSIO/eosio-authentication-transport-protocol-spec).
 
-![EOSIO Labs](https://img.shields.io/badge/EOSIO-LABS-blue.svg)
+![EOSIO Labs](https://img.shields.io/badge/EOSIO-Labs-5cb3ff.svg)
 
 ## About EOSIO Labs
 
