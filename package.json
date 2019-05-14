@@ -45,8 +45,8 @@
     "typescript": "^3.1.6"
   },
   "dependencies": {
-    "@blockone/eosjs-signature-provider-interface": "^6.0.0",
-    "eosjs": "^20.0.0-73152ad.0",
+    "@blockone/eosjs-signature-provider-interface": "^6.0.1",
+    "eosjs": "^20.0.0",
     "qs": "^6.5.2",
     "uuid": "^3.3.2"
   }
