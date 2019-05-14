@@ -46,7 +46,6 @@
   },
   "dependencies": {
     "@blockone/eosjs-signature-provider-interface": "^6.0.1",
-    "eosjs": "^20.0.0",
     "qs": "^6.5.2",
     "uuid": "^3.3.2"
   }
