@@ -8,7 +8,7 @@ export class ExpiringLocalStorageProvider {
   }
 
   public get(variable: string): any {
-    const val = window.localStorage.getItem(variable) || ""
+    const val = window.localStorage.getItem(variable) || ''
     if (!val) {
       return null
     }
