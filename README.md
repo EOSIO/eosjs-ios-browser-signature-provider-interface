@@ -15,13 +15,13 @@ This signature provider currently only works for mobile Safari.
 
 ## Installation
 ```bash
-yarn add @blockone/eosjs-ios-browser-signature-provider-interface
+yarn add eosjs-ios-browser-signature-provider-interface
 ```
 
 ## Basic Usage
 ```javascript
 import { Api, JsonRpc } from "eosjs"
-import { SignatureProvider } from "@blockone/eosjs-ios-browser-signature-provider-interface"
+import { SignatureProvider } from "eosjs-ios-browser-signature-provider-interface"
 
 const rpc = new JsonRpc("RPC_ENDPOINT_HERE")
 const signatureProvider = new SignatureProvider({
