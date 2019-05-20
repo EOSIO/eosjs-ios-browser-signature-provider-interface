@@ -1,6 +1,6 @@
 {
   "name": "@blockone/eosjs-ios-browser-signature-provider-interface",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "A SignatureProviderInterface for communicating with an authenticator from iOS browsers using the EOSIO Authentication Transport Protocol Specification.",
   "author": {
     "name": "block.one",
@@ -45,7 +45,7 @@
     "typescript": "^3.1.6"
   },
   "dependencies": {
-    "@blockone/eosjs-signature-provider-interface": "^6.0.1",
+    "@blockone/eosjs-signature-provider-interface": "^7.0.0",
     "qs": "^6.5.2",
     "uuid": "^3.3.2"
   }
