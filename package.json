@@ -1,6 +1,6 @@
 {
   "name": "eosjs-ios-browser-signature-provider-interface",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Signature Provider Interface for communicating with an authenticator from iOS browsers using the EOSIO Authentication Transport Protocol Specification.",
   "author": {
     "name": "block.one",
@@ -32,20 +32,21 @@
   ],
   "main": "dist/index.js",
   "scripts": {
+    "build": "yarn lint & tsc -p ./tsconfig.json",
+    "clean-build": "rm -rf dist && yarn build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "tslint -c tslint.json src/*.ts",
-    "build": "npm run clean & tsc -p ./tsconfig.json",
-    "clean": "rm -rf dist"
+    "prepublish": "yarn clean-build"
   },
   "devDependencies": {
-    "@blockone/tslint-config-blockone": "^4.0.0",
+    "@blockone/tslint-config-blockone": "^4.0.1",
     "@types/qs": "^6.5.1",
     "tslint": "^5.11.0",
     "tslint-eslint-rules": "^5.4.0",
     "typescript": "^3.1.6"
   },
   "dependencies": {
-    "eosjs-signature-provider-interface": "^0.1.0",
+    "eosjs-signature-provider-interface": "^0.1.1",
     "qs": "^6.5.2",
     "uuid": "^3.3.2"
   }
